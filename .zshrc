@@ -21,7 +21,8 @@ export HOMEBREW_NO_ANALYTICS=1
 # MY OWN ALIASES
 alias od='ondemand connect'
 alias odc='ondemand connect -y $1'
-alias vi='vim'
+alias vi='nvim'
+alias vim='nvim'
 alias ls='ls -l'
 alias code='code-fb'
 alias top='htop'
