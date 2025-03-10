@@ -206,8 +206,8 @@ exec xinput set-prop "DLL07A9:01 044E:120B" "libinput Tapping Enabled" 1
 exec xinput set-prop "DLL07A9:01 044E:120B" "libinput Natural Scrolling Enabled" 1 
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-#exec_always redshift -x; redshift -O 3100k 
+exec_always redshift -x; redshift -O 3500k 
 for_window [class="^.*"] border pixel 0
 
 bindsym $mod+b exec firefox
-bindsym $mod+c exec code 
+bindsym $mod+c exec code
