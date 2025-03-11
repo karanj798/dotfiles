@@ -2,10 +2,23 @@ general.import = [
     "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
 ]
 
+
 [font]
-  size = 13
+  size = 11
 
 [font.normal]
-  family = "FiraCode Nerd Font Mono"
+  family = "JetBrainsMonoNL Nerd Font Propo"
   style = "Regular"
+
+[font.bold]
+  family = "JetBrainsMonoNL Nerd Font Propo"
+  style = "Bold"
+
+[font.italic]
+  family = "JetBrainsMonoNL Nerd Font Propo"
+  style = "Italic"
+
+[font.bold_italic]
+  family = "JetBrainsMonoNL Nerd Font Propo"
+  style = "Bold Italic"
 
