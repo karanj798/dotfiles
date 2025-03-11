@@ -1,10 +1,12 @@
 general.import = [
     "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
 ]
-
+[window]
+  decorations = "buttonless"
+  blur = true
 
 [font]
-  size = 11
+  size = 14
 
 [font.normal]
   family = "JetBrainsMonoNL Nerd Font Propo"
@@ -22,3 +24,20 @@ general.import = [
   family = "JetBrainsMonoNL Nerd Font Propo"
   style = "Bold Italic"
 
+[[keyboard.bindings]]
+  key = "Tab"
+  mods = "Control"
+  action = "SelectNextTab"
+
+[[keyboard.bindings]]
+  key = "Tab"
+  mods = "Control|Shift"
+  action = "SelectPreviousTab"
+
+[[keyboard.bindings]]
+  key = "Enter"
+  mods = "Command"
+  action = "ToggleFullscreen"
+
+[selection]
+  save_to_clipboard = true
